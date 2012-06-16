@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A21A328155F0CFD009EE0CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A21A327155F0CFD009EE0CA /* Cocoa.framework */; };
+		1A21A332155F0CFD009EE0CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A21A330155F0CFD009EE0CA /* InfoPlist.strings */; };
+		1A21A334155F0CFD009EE0CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A333155F0CFD009EE0CA /* main.m */; };
+		1A21A338155F0CFD009EE0CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A21A336155F0CFD009EE0CA /* Credits.rtf */; };
+		1A21A33B155F0CFD009EE0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A33A155F0CFD009EE0CA /* AppDelegate.m */; };
+		1A21A34A155F0D10009EE0CA /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A349155F0D10009EE0CA /* STPrivilegedTask.m */; };
+		1A21A35B155F3BFF009EE0CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A21A35A155F3BFF009EE0CA /* Security.framework */; };
+		1A21A35E155F41B8009EE0CA /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 1A21A35C155F41B8009EE0CA /* lib */; };
+		1A21A35F155F41B8009EE0CA /* MoppyDesk.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A21A35D155F41B8009EE0CA /* MoppyDesk.jar */; };
+		1A21A360155F41CA009EE0CA /* MoppyDesk.jar in Resources */ = {isa = PBXBuildFile; fileRef = 1A21A35D155F41B8009EE0CA /* MoppyDesk.jar */; };
+		1A7166D71560BA0D008179F9 /* librxtxSerial.jnilib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7166D51560BA0D008179F9 /* librxtxSerial.jnilib */; };
+		1A7166D81560BA0D008179F9 /* RXTXcomm.jar in Resources */ = {isa = PBXBuildFile; fileRef = 1A7166D61560BA0D008179F9 /* RXTXcomm.jar */; };
+		1A929811158D27E1009AA452 /* floppy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1A929810158D27E1009AA452 /* floppy.icns */; };
+		1AC1949215608B6100FC91E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1949115608B6100FC91E1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A21A323155F0CFD009EE0CA /* MoppyDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoppyDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A21A327155F0CFD009EE0CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A21A32A155F0CFD009EE0CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A21A32B155F0CFD009EE0CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A21A32C155F0CFD009EE0CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A21A32F155F0CFD009EE0CA /* MoppyDesk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoppyDesk-Info.plist"; sourceTree = "<group>"; };
+		1A21A331155F0CFD009EE0CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A21A333155F0CFD009EE0CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A21A335155F0CFD009EE0CA /* MoppyDesk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoppyDesk-Prefix.pch"; sourceTree = "<group>"; };
+		1A21A337155F0CFD009EE0CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A21A339155F0CFD009EE0CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A21A33A155F0CFD009EE0CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A21A348155F0D10009EE0CA /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		1A21A349155F0D10009EE0CA /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
+		1A21A35A155F3BFF009EE0CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1A21A35C155F41B8009EE0CA /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		1A21A35D155F41B8009EE0CA /* MoppyDesk.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = MoppyDesk.jar; sourceTree = "<group>"; };
+		1A7166D51560BA0D008179F9 /* librxtxSerial.jnilib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = librxtxSerial.jnilib; sourceTree = "<group>"; };
+		1A7166D61560BA0D008179F9 /* RXTXcomm.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = RXTXcomm.jar; sourceTree = "<group>"; };
+		1A929810158D27E1009AA452 /* floppy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = floppy.icns; sourceTree = "<group>"; };
+		1AC1949115608B6100FC91E1 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A21A320155F0CFD009EE0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A21A35B155F3BFF009EE0CA /* Security.framework in Frameworks */,
+				1A21A328155F0CFD009EE0CA /* Cocoa.framework in Frameworks */,
+				1A21A35F155F41B8009EE0CA /* MoppyDesk.jar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A21A318155F0CFC009EE0CA = {
+			isa = PBXGroup;
+			children = (
+				1A21A32D155F0CFD009EE0CA /* MoppyDesk */,
+				1A21A326155F0CFD009EE0CA /* Frameworks */,
+				1A21A324155F0CFD009EE0CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A21A324155F0CFD009EE0CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A21A323155F0CFD009EE0CA /* MoppyDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A21A326155F0CFD009EE0CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A21A35A155F3BFF009EE0CA /* Security.framework */,
+				1A21A327155F0CFD009EE0CA /* Cocoa.framework */,
+				1A21A329155F0CFD009EE0CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A21A329155F0CFD009EE0CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A21A32A155F0CFD009EE0CA /* AppKit.framework */,
+				1A21A32B155F0CFD009EE0CA /* CoreData.framework */,
+				1A21A32C155F0CFD009EE0CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A21A32D155F0CFD009EE0CA /* MoppyDesk */ = {
+			isa = PBXGroup;
+			children = (
+				1A21A339155F0CFD009EE0CA /* AppDelegate.h */,
+				1A21A33A155F0CFD009EE0CA /* AppDelegate.m */,
+				1A21A348155F0D10009EE0CA /* STPrivilegedTask.h */,
+				1A21A349155F0D10009EE0CA /* STPrivilegedTask.m */,
+				1AC1949115608B6100FC91E1 /* MainMenu.xib */,
+				1A21A32E155F0CFD009EE0CA /* Supporting Files */,
+			);
+			path = MoppyDesk;
+			sourceTree = "<group>";
+		};
+		1A21A32E155F0CFD009EE0CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A929810158D27E1009AA452 /* floppy.icns */,
+				1A21A35C155F41B8009EE0CA /* lib */,
+				1A21A35D155F41B8009EE0CA /* MoppyDesk.jar */,
+				1A21A32F155F0CFD009EE0CA /* MoppyDesk-Info.plist */,
+				1A21A330155F0CFD009EE0CA /* InfoPlist.strings */,
+				1A7166D51560BA0D008179F9 /* librxtxSerial.jnilib */,
+				1A7166D61560BA0D008179F9 /* RXTXcomm.jar */,
+				1A21A333155F0CFD009EE0CA /* main.m */,
+				1A21A335155F0CFD009EE0CA /* MoppyDesk-Prefix.pch */,
+				1A21A336155F0CFD009EE0CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A21A322155F0CFD009EE0CA /* MoppyDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A21A341155F0CFE009EE0CA /* Build configuration list for PBXNativeTarget "MoppyDesk" */;
+			buildPhases = (
+				1A21A31F155F0CFD009EE0CA /* Sources */,
+				1A21A320155F0CFD009EE0CA /* Frameworks */,
+				1A21A321155F0CFD009EE0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoppyDesk;
+			productName = MoppyDesk;
+			productReference = 1A21A323155F0CFD009EE0CA /* MoppyDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A21A31A155F0CFC009EE0CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1A21A31D155F0CFC009EE0CA /* Build configuration list for PBXProject "MoppyDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A21A318155F0CFC009EE0CA;
+			productRefGroup = 1A21A324155F0CFD009EE0CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A21A322155F0CFD009EE0CA /* MoppyDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A21A321155F0CFD009EE0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A21A360155F41CA009EE0CA /* MoppyDesk.jar in Resources */,
+				1A7166D81560BA0D008179F9 /* RXTXcomm.jar in Resources */,
+				1A21A332155F0CFD009EE0CA /* InfoPlist.strings in Resources */,
+				1A21A338155F0CFD009EE0CA /* Credits.rtf in Resources */,
+				1A21A35E155F41B8009EE0CA /* lib in Resources */,
+				1AC1949215608B6100FC91E1 /* MainMenu.xib in Resources */,
+				1A7166D71560BA0D008179F9 /* librxtxSerial.jnilib in Resources */,
+				1A929811158D27E1009AA452 /* floppy.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A21A31F155F0CFD009EE0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A21A334155F0CFD009EE0CA /* main.m in Sources */,
+				1A21A33B155F0CFD009EE0CA /* AppDelegate.m in Sources */,
+				1A21A34A155F0D10009EE0CA /* STPrivilegedTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A21A330155F0CFD009EE0CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A21A331155F0CFD009EE0CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A21A336155F0CFD009EE0CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A21A337155F0CFD009EE0CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A21A33F155F0CFE009EE0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A21A340155F0CFE009EE0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A21A342155F0CFE009EE0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoppyDesk/MoppyDesk-Prefix.pch";
+				INFOPLIST_FILE = "MoppyDesk/MoppyDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A21A343155F0CFE009EE0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoppyDesk/MoppyDesk-Prefix.pch";
+				INFOPLIST_FILE = "MoppyDesk/MoppyDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A21A31D155F0CFC009EE0CA /* Build configuration list for PBXProject "MoppyDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A21A33F155F0CFE009EE0CA /* Debug */,
+				1A21A340155F0CFE009EE0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A21A341155F0CFE009EE0CA /* Build configuration list for PBXNativeTarget "MoppyDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A21A342155F0CFE009EE0CA /* Debug */,
+				1A21A343155F0CFE009EE0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A21A31A155F0CFC009EE0CA /* Project object */;
+}
